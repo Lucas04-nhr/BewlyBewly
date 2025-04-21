@@ -1,6 +1,13 @@
+> [!IMPORTANT]
+> 这是 @hakadao/BewlyBewly 项目的一个分支。
+>
+> 我使用此分支为扩展程序添加了一些增强功能和新特性，同时学习 `vue.js` 前端开发技能，因为原始项目已被存档。
+>
+> 由于作者时间和精力有限，此项目的国际化（i18n）暂时不会进行维护。项目文档将主要维护 `en_US` 和 `zh_CN` 版本。
+
 # BewlyBewly
 
-[English](README.md) | 官话 - 简体中文 | [官話 - 繁体中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
+[English](README.md) | 官话 - 简体中文
 
 <p align="center" style="margin-bottom: 0px !important;">
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>

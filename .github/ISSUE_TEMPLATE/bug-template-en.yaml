@@ -1,0 +1,83 @@
+name: Bug Report (English)
+description: Report any encountered errors here.
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        Before reporting an issue, please check the “[FAQ](https://github.com/BewlyBewly/BewlyBewly/wiki/FAQ)” page.
+
+        Issues with vague titles like “bug,” “error,” or “problem” will be closed and locked without explanation. Issues related to outdated versions or duplicates will also be closed.
+
+        Feature requests should not be submitted in bug reports. Please [open a blank issue](https://github.com/BewlyBewly/BewlyBewly/issues/new).
+
+        If you encounter page-related issues (e.g., unexpected elements on a specific page), please include the page link where the issue occurred.
+
+        ### Edge
+        Due to the slow review process of Edge Addons, updates are always delayed compared to Google Chrome. This is beyond our control, so we have stopped publishing on Edge Addons.
+
+        [Edge users can download from the Chrome Web Store](https://chromewebstore.google.com/detail/bewlybewly/bbbiejemhfihiooipfcjmjmbfdmobobp). **Do not revert to the Edge version just because of the warning message on the Chrome Web Store.**
+
+        ### Safari
+        We will not publish on Safari. Apple requires a $99 annual developer fee, and their system repeatedly blocks registration without providing solutions. Additionally, Safari updates are tied to system updates, which is inconvenient. We do not support Safari.
+
+  - type: textarea
+    attributes:
+      label: Environment Information
+      description: **Do not modify the issue template.** Include the extension version, browser version, and any custom settings you have made.
+      placeholder: |
+        - Browser (e.g., Google Chrome):
+        - Browser version (e.g., 126.0.6478.126):
+        - BewlyBewly version (e.g., 0.20.1):
+
+        If you have modified BewlyBewly settings, please describe them here to help us troubleshoot (e.g., “After setting ××, this issue occurred” [replace “××” with your settings]):
+
+      value: |
+        - Browser (e.g., Google Chrome):
+        - Browser version (e.g., 126.0.6478.126):
+        - BewlyBewly version (e.g., 0.20.1):
+
+        If you have modified BewlyBewly settings, please describe them here to help us troubleshoot (e.g., “After setting ××, this issue occurred” [replace “××” with your settings]):
+
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: Steps to reproduce the issue. Screenshots or videos are highly recommended for troubleshooting.
+      placeholder: |
+        Please search to see if this issue has already been reported in other issues. Duplicate issues will be closed and locked.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Describe what you think should happen.
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Final Confirmation
+      description: Please confirm all the following items; otherwise, the issue will be closed.
+      options:
+        - label: I confirm that the issue does not occur after disabling BewlyBewly and performing a hard refresh (hold the Shift key while clicking the refresh button).
+          required: false
+        - label: I confirm that this issue has not been reported in other issues.
+          required: false
+        - label: I confirm that I have read the “[FAQ](https://github.com/BewlyBewly/BewlyBewly/wiki/FAQ)” page and found no solution to my issue.
+          required: false
+        - label: I confirm that I am using the latest version of BewlyBewly.
+          required: false
+
+  - type: checkboxes
+    attributes:
+      label: Contribute?
+      description: **This option is not mandatory. If you are unsure what this means, do not select it.** We welcome contributions from anyone. See [CONTRIBUTING.md](https://github.com/BewlyBewly/BewlyBewly/blob/main/docs/CONTRIBUTING.md).
+      options:
+        - label: I will submit a PR to resolve this issue myself.
+          required: false
