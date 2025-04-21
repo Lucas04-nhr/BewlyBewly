@@ -1,9 +1,9 @@
 > [!IMPORTANT]
 > This is a forked project of @hakadao/BewlyBewly.
 >
-> I use this fork to add some enhancements and features to the extension, as well as learn the front-end development skill since the original project has been archived.
+> I use this fork to add some enhancements and features to the extension, as well as learn the `vue.js` front-end development skills since the original project has been archived.
 >
-> Due to the author's time and energy constraints, the i18n of this project will not be maintained for the time being. The project documentation will primarily maintain the en_US and zh_CN versions.
+> Due to the author's time and energy constraints, the i18n of this project will not be maintained for the time being. The project documentation will primarily maintain the `en_US` and `zh_CN` versions.
 
 # BewlyBewly
 
