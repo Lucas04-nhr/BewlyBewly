@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This is a forked project of @hakadao/BewlyBewly.
+>
+> I use this fork to add some enhancements and features to the extension, as well as learn the front-end development skill since the original project has been archived.
+>
+> Due to the author's time and energy constraints, the i18n of this project will not be maintained for the time being. The project documentation will primarily maintain the en_US and zh_CN versions.
+
 # BewlyBewly
 
 English | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
@@ -98,12 +105,12 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 ### Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=hakadao/BewlyBewly)](https://github.com/BewlyBewly/BewlyBewly/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Lucas04-nhr/BewlyBewly)](https://github.com/Lucas04-nhr/BewlyBewly/graphs/contributors)
 
 ## ❤️ Credits
 
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - The template used for this project
 - [UserScripts/bilibiliHome](https://github.com/indefined/UserScripts/tree/master/bilibiliHome),
-[bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) - Reference source for obtaining the access key
+- [bilibili-app-recommend](https://github.com/magicdawn/bilibili-app-recommend) - Reference source for obtaining the access key
 - [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) - Partial implementation of functionalities
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
